@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mind Reader 🤯</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="hehe.jpg" alt="Carlo" id="rotating-pic" />
+
+  <h1>Pick any number you want, I will read your mind 🤯</h1>
+
+  <input type="number" id="number-input" placeholder="Enter your number" />
+  <button id="read-btn">Read my Mind</button>
+
+  <div id="loading" class="hidden">
+    <div id="loading-bar"></div>
+    <p id="loading-text"></p>
+  </div>
+
+  <img src="explosion.gif" id="explosion" class="hidden" alt="Explosion" />
+
+  <div id="result" class="hidden"></div>
+
+  <audio id="background-audio" src="background.mp3" loop autoplay></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
